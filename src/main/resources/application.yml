@@ -3,16 +3,12 @@ spring:
   jpa:
     database: postgresql
     show-sql: true
-   # generate-ddl: true
     hibernate:
       ddl-auto: create-drop
-    properties:
-        hibernate:
-          dialect: org.hibirnate.dialect.PostgreSQLDialect
 
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/postgres/garage
+    url: jdbc:postgresql://localhost:5432/garage
     username: postgres
     password: postgres
 

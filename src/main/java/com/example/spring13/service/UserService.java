@@ -1,5 +1,6 @@
 package com.example.spring13.service;
 
+import com.example.spring13.db.entity.UserEntity;
 import com.example.spring13.db.repo.UserRepo;
 import com.example.spring13.dto.UserDetails;
 import lombok.RequiredArgsConstructor;
@@ -17,7 +18,7 @@ public class UserService {
     private final UserRepo userRepo;
 
     public List<UserDetails> getAll() {
-        userRepo.findAll();
+      List<UserEntity> all= userRepo.findAll();
         throw new RuntimeException("Not impl");
     }
 
