@@ -10,6 +10,7 @@ public class UserDetails {
 
     private Integer id;
     private String name;
+    private String Surname;
 
 
     public void add() {
