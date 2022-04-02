@@ -22,6 +22,7 @@ public class UserService {
         throw new RuntimeException("Not impl");
     }
 
+
     public void add(UserDetails userDetails) {
         throw new RuntimeException("Not impl");
     }
